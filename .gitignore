@@ -54,3 +54,4 @@ Thumbs.db
 
 # Internal agent tooling (not part of the published project)
 _agentbus/
+.ai/
