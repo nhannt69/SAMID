@@ -2,7 +2,12 @@
 
 # Unsupervised Hybrid Transformer–Mamba Diffusion for Depth-Dependent Image Denoising in Scanning Acoustic Microscopy
 
-This work has been submitted and might be opened soon.
+Official code for the paper accepted at **IEEE Transactions on Industrial Informatics (IF = 9.8), 2026**:
+
+> Trong Nhan Nguyen, Vu Hoang Minh Doan, Tan Hung Vo, Dang Khoa Pham, Quoc Dung Nguyen,
+> Truong Tien Vo, Jaeyeop Choi, Junghwan Oh, "Unsupervised Hybrid Transformer–Mamba Diffusion
+> for Depth-Dependent Image Denoising in Scanning Acoustic Microscopy," *IEEE Transactions on
+> Industrial Informatics*, 2026. [DOI: 10.1109/TII.2025.3648838](https://doi.org/10.1109/TII.2025.3648838)
 
 ---
 
@@ -95,7 +100,21 @@ your trained (or downloaded) checkpoints.
 - No-reference metrics (BRISQUE/NIQE/PIQE/RankIQA/MetaIQA): see `evaluate/NIQA/readme.md` for
   usage and pretrained-checkpoint links.
 
-## Acknowledgements / Citation
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@article{nguyen2026samid,
+  title={Unsupervised Hybrid Transformer--Mamba Diffusion for Depth-Dependent Image Denoising in Scanning Acoustic Microscopy},
+  author={Nguyen, Trong Nhan and Doan, Vu Hoang Minh and Vo, Tan Hung and Pham, Dang Khoa and Nguyen, Quoc Dung and Vo, Truong Tien and Choi, Jaeyeop and Oh, Junghwan},
+  journal={IEEE Transactions on Industrial Informatics},
+  year={2026},
+  doi={10.1109/TII.2025.3648838}
+}
+```
+
+## Acknowledgements
 
 This project's `denoising/` and `diffusion/` packages are an adapted, renamed fork of
 [HI-Diff](https://github.com/zhengchen1999/HI-Diff) (Chen et al., NeurIPS 2023), which itself
