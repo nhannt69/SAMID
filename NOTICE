@@ -1,0 +1,39 @@
+SAMID
+Copyright (c) contributors
+
+This project is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The `denoising/` and `diffusion/` packages are an adapted, renamed fork of:
+
+  HI-Diff: Hierarchical Integration Diffusion Model for Realistic Image Deblurring
+  Zheng Chen, Yulun Zhang, Ding Liu, Bin Xia, Jinjin Gu, Linghe Kong, Xin Yuan
+  NeurIPS 2023 (Spotlight)
+  https://github.com/zhengchen1999/HI-Diff
+  Licensed under the Apache License, Version 2.0.
+
+HI-Diff itself is built on and/or references the following Apache-2.0 licensed projects:
+
+  BasicSR
+  https://github.com/XPixelGroup/BasicSR
+
+  Restormer: Efficient Transformer for High-Resolution Image Restoration
+  Syed Waqas Zamir, Aditya Arora, Salman Khan, Munawar Hayat, Fahad Shahbaz Khan, Ming-Hsuan Yang
+  https://github.com/swz30/Restormer
+
+  DiffIR: Efficient Diffusion Model for Image Restoration
+  Bin Xia, Yulun Zhang, Shiyin Wang, Yitong Wang, Xinglong Wu, Yapeng Tian, Wenming Yang, Luc Van Gool
+  https://github.com/Zj-BinXia/DiffIR
+
+  MambaIR / MambaIRv2: State Space Model for Image Restoration
+  https://github.com/csguoh/MambaIR
+
+`scripts/evaluate_realblur.py` and `scripts/generate_patches_gopro.py` are adapted from:
+
+  Restormer: Efficient Transformer for High-Resolution Image Restoration
+  https://github.com/swz30/Restormer
+
+`evaluate/NIQA/` bundles several no-reference IQA implementations (BRISQUE, NIQE, PIQE,
+RankIQA, MetaIQA) adapted from third-party sources; see `evaluate/NIQA/readme.md` for the
+full per-component attribution.
+
+See each project's repository for its full license text and citation details.

@@ -1,0 +1,27 @@
+# Core
+torch
+torchvision
+numpy
+opencv-python
+scikit-image
+einops
+timm
+pyyaml
+tqdm
+
+# BasicSR (registry / dataloader / training loop framework used by denoising/ and diffusion/)
+basicsr
+
+# Data prep / dataset utilities
+natsort
+joblib
+pandas
+
+# Evaluation (evaluate/IQA, evaluate/NIQA)
+lpips
+pyiqa
+pytorch-fid
+loguru
+
+# Optional: memory-efficient attention, used by some Restormer-based blocks
+# xformers

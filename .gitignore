@@ -1,0 +1,56 @@
+# Datasets, generated data, and experiment outputs (not tracked in git)
+data/
+degradation/
+results/
+DomainTransfer/weight/
+DomainTransfer/SAM12/
+DomainTransfer/SAMCycle/
+asset/
+experiments/
+tb_logger/
+wandb/
+
+# Model weights / large binaries
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.mat
+*.onnx
+*.zip
+*.tar
+*.tar.gz
+*.caffemodel
+
+# evaluate/: result spreadsheets, downloaded archives, and test/visualization image
+# dumps are data, not code or docs (illustrative images used by a readme are
+# allow-listed individually below)
+evaluate/*.xlsx
+evaluate/NIQA/*.xlsx
+evaluate/NIQA/images/
+evaluate/NIQA/*.png
+!evaluate/NIQA/Teaser.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Internal agent tooling (not part of the published project)
+_agentbus/
